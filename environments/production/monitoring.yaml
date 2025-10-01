@@ -1,0 +1,3 @@
+prometheus_endpoint: https://metrics.company.com
+alert_email: ops-team@company.com
+retention_days: 90
