@@ -10,4 +10,4 @@ api:
 
 features:
   enable_experimental: true # Test new features with almost-real data
-  payment_test_mode: true # Still no real money
+  payment_test_mode: false #  real money is involved
