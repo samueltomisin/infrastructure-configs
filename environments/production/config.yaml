@@ -1,0 +1,12 @@
+environment: production
+
+database:
+  host: prod-db-cluster.myapp.com # A robust, high-availability database
+  name: myapp_prod
+api:
+  url: https://api.myapp.com # The real URL customers use
+  log_level: warn # Only log important errors and warnings
+  
+features:
+  enable_experimental: false # Only stable, tested features
+  payment_test_mode: false # Real payments are processed

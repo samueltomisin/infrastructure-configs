@@ -1,0 +1,15 @@
+# environments/dev/config.yaml
+environment: dev
+
+api:
+api_endpoint: https://api-dev.company.com
+log_level: debug
+
+database:
+database_host: dev-db.internal
+name: myapp_dev
+
+features:
+  enable_experimental: true # Turn on unfinished features
+  payment_test_mode: true # No real money is used
+
